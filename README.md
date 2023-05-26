@@ -8,9 +8,9 @@ In this example, we start 3 containers:
 
 To run this example, just clone the repository and execute
 
-`bash
+```bash
 docker-compose up -d
-`
+```
 
 This will build and start the 3 containers, then access http://localhost:3000 on your browser.
 

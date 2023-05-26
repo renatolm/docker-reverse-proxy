@@ -12,7 +12,7 @@ To run this example, just clone the repository and execute
 docker-compose up -d
 ```
 
-This will build and start the 3 containers, then access http://localhost:3000 on your browser.
+This will build and start the 3 containers, then access http://localhost:8080 on your browser.
 
 The request will arrive at the Nginx and will be redirected to the Node.js application.
 

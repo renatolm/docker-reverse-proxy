@@ -2,8 +2,7 @@ FROM node:20
 
 WORKDIR /usr/src/app
 
-COPY index.js index.js
-COPY package.json package.json
+COPY . .
 
 RUN npm install --save
 
